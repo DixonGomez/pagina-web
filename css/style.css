@@ -1,5 +1,5 @@
 body{
- background-color: rgb(162, 228, 222);
+ background-color: rgb(94, 122, 120);
 }
 h1{
     color: rgb(247, 90, 18);
@@ -11,8 +11,9 @@ section{
     width: 600px;
     height: 430px;
     align-content: center;
-  
-
+    flex-direction: initial;
+    position: center;
+    margin: auto;
 
     
 }
@@ -41,9 +42,11 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    border-radius: 22px;
+    border-radius: 17px;
+    margin: auto;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0);
 }
+
 
 nav > a {
     color: black;
@@ -79,6 +82,8 @@ body{
 
 .contenedor{
     margin-top: 2rem;
+    margin: auto;
+    flex: auto;
 }
 
 form{
@@ -91,9 +96,10 @@ form{
     margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 0 7px 10px #154360;
-
+    margin: auto;
     display: flex;
     flex-direction: column;
+
 }
 .titulo {
     letter-spacing: 1px;
